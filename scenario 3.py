@@ -102,6 +102,7 @@ pokeDict= {
 
 print(pokeDict["pokemon013"]["HP"]-partyDictionary["Gale"]["Damage"])
 #Combat Code Goes Here
+
 x=(pokeDict["pokemon013"]["HP"]-partyDictionary["Gale"]["Damage"]+random.randrange(1,20))
 y=(partyDictionary["Gale"]["HP"]-pokeDict["pokemon013"]["attack"]+random.randrange(1,20))
 if x > 0:
@@ -112,6 +113,6 @@ else:
 y=(partyDictionary["Gale"]["HP"]-pokeDict["pokemon013"]["attack"]+random.randrange(1,20))
 
 if y > 0:
-    print("Gale is still satnding!"),
+    print("Gale is still standing!"),
 else:
     print("Gale Passed out! Weedle wins!")
