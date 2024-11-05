@@ -25,10 +25,11 @@ while j>=0:
 print("x")
 
 x = 1
-z=int(input("guess a number"))
+#z=int(input("guess a number"))
 while x>=0:
-    x=x+1
     print(x)
+    x=x+1
+    z=int(input("guess a number"))
     if z==0:
         break
 
