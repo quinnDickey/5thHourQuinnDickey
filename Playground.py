@@ -18,4 +18,3 @@ if numbList [1] == x:
     print("win")
 else:
     print("loss")
-
