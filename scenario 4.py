@@ -12,4 +12,11 @@
 #a single model from 1 to 5, and then give the average score of all of the ratings.
 
 print("hello world")
+z=0
+x=int(input("how many players?"))
+for i in range(0,x):
+    y=(int(input("Rank the outfit 1 to 5"))),
 
+avg=sum(y)/len(y)
+
+print(avg)
