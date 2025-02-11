@@ -13,7 +13,7 @@
 j=0
 while 100>j:
     j+=1
-    if  j %5 ==0 and j%3==0:
+    if j %5 ==0 and j%3==0:
         print("fizzbuzz")
 
     elif j % 5 ==0:
